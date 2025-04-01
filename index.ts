@@ -1,1 +1,1 @@
-import "./features/fetch"
+import "./features/hashing"

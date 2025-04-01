@@ -26,6 +26,7 @@ const users: User[] = [
 
 
 const server : Server = Bun.serve({
+    hostname:"0.0.0.0",
     port:3000,
     fetch(req : Request) : Response  {
         const url = new URL(req.url)
@@ -48,10 +49,9 @@ const server : Server = Bun.serve({
                 case 'GET' :
                     response.message = "Fteching users data ..",
                     response.data = users
-
                     break;
                 case 'POST' :
-                    response.message = "Crating new USers"
+                    response.message = "Crating new Users"
 
                     break;
                 default  :
