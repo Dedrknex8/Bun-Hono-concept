@@ -1,0 +1,2 @@
+Argon2 Hash: $argon2id$v=19$m=2,t=4,p=1$5+lNtq3axw+PX+v904Dh3/D1sqwwc2MjU/qngsT/fVE$V/CLqsrCdZZJJR8dMYnQmqNE8Ua9uEbSS8SCbD2nCfk
+Bcrypt Hash: $2b$04$92mRmWrXUA7XKmgenEraWOKpTsJc1wlxATuQ/nWqah0CwJxtO76m2
